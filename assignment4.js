@@ -71,7 +71,7 @@ function canPay(changeArray, totalDue) {
     }
 
     if (total >= totalDue) {
-        return true
+        return true;
     } else {
         return false;
     }
